@@ -17,7 +17,7 @@ namespace Projeto_Desafio
         {
             this.Nome = nome;
             this.Vida = vida;
-            this.Experiencia = experiencia;
+            this.Experiencia = vida + ataque;
             this.Ataque = ataque;
 
         }

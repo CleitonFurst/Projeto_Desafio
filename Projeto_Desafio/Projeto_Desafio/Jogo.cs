@@ -55,7 +55,10 @@ namespace Projeto_Desafio
         {
             Console.Clear();
             MostrarInfo();
-            Console.WriteLine($"Monstro encontrado : {monstro.nome} - Ataque");
+            Console.WriteLine($"MONSTRO ENCONTRADO: {monstro.Nome} - Ataque: {monstro.Ataque} - Vida: {monstro.Vida} - XP: {monstro.Experiencia}");
+            
+        
+        
         }
         public void MostrarInfo()
         {
